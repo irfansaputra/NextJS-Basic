@@ -46,7 +46,6 @@ interface GetStaticProps {
     id:string;
   }
 }
-
 // untuk mendapatkan detail usernya
 export async function getStaticProps(context: GetStaticProps) {
   const { id } = context.params;
